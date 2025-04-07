@@ -40,6 +40,10 @@ PACKAGES="$PACKAGES openssh-sftp-server"
 PACKAGES="$PACKAGES fdisk"
 PACKAGES="$PACKAGES script-utils"
 PACKAGES="$PACKAGES luci-i18n-samba4-zh-cn"
+PACKAGES="$PACKAGES luci-app-ocserv_git-24.312.38791-999257d_all.ipk"
+PACKAGES="$PACKAGES luci-app-smartdns_1.2025.46-1_all.ipk"
+PACKAGES="$PACKAGES luci-app-unblockneteasemusic_3.3-2_all.ipk"
+PACKAGES="$PACKAGES luci-app-alist_git-24.312.38791-999257d_all.ipk"	
 
 # 判断是否需要编译 Docker 插件
 if [ "$INCLUDE_DOCKER" = "yes" ]; then
